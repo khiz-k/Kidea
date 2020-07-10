@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import '../../partials/colors';
+@import '../../partials/fonts';
+@import '../../partials/mixins';
 
 .login-container {
     background-color: #fff;
@@ -58,8 +61,8 @@
     
     .btn {
         cursor: pointer;
-        background-color: #141c2c;
-        border: 2px solid #141c2c;
+        background-color: $primary-CTA-color;
+        border: 2px solid $primary-CTA-color;
         border-radius: 3px;
         color: #fff;
         display: flex;
