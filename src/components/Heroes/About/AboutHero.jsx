@@ -7,7 +7,7 @@ export default function AboutHero (props) {
        <section className="about-hero">
         <div className='about-hero-left'>
           <h1 className="about-hero-header">Team <span className='about-hero-important'>Happy</span> Feet</h1>
-          <p className="about-hero-text">Group of happy-go-lucky tech savvy individuals embracing the idea of .</p>
+          <p className="about-hero-text">We are passionate individuals focusing on happiness of parent-child relationships.</p>
         </div>
         <div className="about-hero-right">
           <div className="coupled-images">
