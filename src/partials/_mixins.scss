@@ -1,0 +1,108 @@
+@import "./variables";
+
+/* global reset */
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* breakpoints */
+@mixin tablet {
+    @media (min-width: $tablet-breakpoint) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop-breakpoint) {
+        @content;
+    }
+}
+
+/* general breakpoint paddings */
+@mixin standard-padding {
+    padding: 0px 16px;
+}
+
+@mixin tablet-padding {
+    padding: 0px 24px;
+}
+
+@mixin desktop-padding {
+    padding: 0px 180px;
+}
+
+/* flex orientations */
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* mobile typography */
+@mixin h1-text-style {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+@mixin h2-text-style {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@mixin h3-text-style {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@mixin h4-text-style {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+@mixin h5-text-style {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/* tablet/desktop typography */
+@mixin desktop-hero-text {
+    font-size: 60px;
+    line-height: 68px;
+}
+
+@mixin tablet-h1-text {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+@mixin tablet-h2-text {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+@mixin tablet-h3-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@mixin tablet-h4-text {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+@mixin tablet-h5-text {
+    font-size: 12px;
+    line-height: 20px;
+}

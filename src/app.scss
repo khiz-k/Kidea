@@ -1,0 +1,19 @@
+@import './partials/colors';
+@import './partials/fonts';
+@import './partials/mixins';
+
+.details {
+    background-color: $standard-bg-color;
+    @include flex-column;
+    @include standard-padding;
+  
+    @include tablet {
+      @include tablet-padding;
+    }
+  
+    @include desktop {
+        @include flex-row;
+        @include desktop-padding;
+    }
+}
+  

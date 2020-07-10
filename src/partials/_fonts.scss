@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src:url('../assets/Font/AvenirNextProLT/AvenirNextLTPro-Medium.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Demi Bold';
+    src:url('../assets/Font/AvenirNextProLT/AvenirNextLTPro-Demi.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Avenir Next Bold';
+    src:url('../assets/Font/AvenirNextProLT/AvenirNextLTPro-Bold.otf');
+    font-weight: 900;
+}
+
+$global-font: "Avenir Next";
+$global-font__demi-bold: "Avenir Next Demi Bold";
+$global-font__bold: "Avenir Next Bold";

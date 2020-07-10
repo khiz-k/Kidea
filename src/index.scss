@@ -1,0 +1,11 @@
+@import './partials/colors';
+@import './partials/fonts';
+@import './partials/mixins';
+
+body {
+  font-family: $global-font;
+  color: $global-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include reset;
+}
