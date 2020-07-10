@@ -14,19 +14,19 @@ export default function Nav(props) {
         <nav className="nav-bar__main">
         <ul className="nav-bar__list">
           <li className="nav-bar__list-item">
-            <Link to="/movies">Movies</Link>
+            <Link to="/movies" className="nav-bar__anchor">Movies</Link>
           </li>
           <li className="nav-bar__list-item">
-            <Link to="/shows">TV Shows</Link>
+            <Link to="/shows" className="nav-bar__anchor">TV Shows</Link>
           </li>
           <li className="nav-bar__list-item">
-            <Link to="/news">News</Link>
+            <Link to="/news" className="nav-bar__anchor">News</Link>
           </li>
           <li className="nav-bar__list-item">
-            <Link to="/about">About</Link>
+            <Link to="/about" className="nav-bar__anchor">About</Link>
           </li>
           <li className="nav-bar__list-item user-login">
-            <Link to="/modal" className="login-button__link"><button name="loginVideo" className="login-button" id="login-button" value="login">Sign In</button></Link>
+            <Link to="/login" className="login-button__link"><button name="loginVideo" className="login-button" id="login-button" value="login">Sign In</button></Link>
           </li>
         </ul>
         </nav>

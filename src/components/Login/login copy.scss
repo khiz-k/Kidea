@@ -1,0 +1,141 @@
+@import '../../partials/colors';
+@import '../../partials/fonts';
+@import '../../partials/mixins';
+
+.login {
+    box-sizing: border-box;
+    width: 100%;
+    @include flex-column;
+    @include standard-padding;
+
+    @include tablet{
+        @include tablet-padding;
+    }
+
+    @include desktop {
+        @include desktop-padding;
+    }
+    
+    &__title {
+        font-family: $global-font__bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 24px 0px;
+        @include h1-text-style;
+        
+        @include tablet {
+            @include tablet-h1-text;
+        }
+
+        @include desktop {
+            margin-top: 32px;
+        }
+    }
+
+    .authenticate-user {
+        width: 100%;
+        font-weight: 100;  
+        @include flex-column;
+    }
+
+    .inputs-container {
+        width: 100%;
+        @include flex-column;
+        justify-content: space-between;
+
+        @include tablet {
+            height: 150px;
+            padding: 16px 0px;
+            border-top: 2px solid darkslateblue;
+        }
+
+        @include desktop {
+            @include flex-row;
+        }
+    
+        .info-container {
+            width: 100%;
+            margin-top: 32px;
+
+            @include tablet {
+                height: 183px;
+            }
+
+            @include desktop {
+                margin: 0 0 0 24px;
+            }
+        }
+
+        .label-text {
+            text-transform: uppercase;
+            color: $yellowy;
+            font-family: $global-font;
+        }
+
+        .user-name {
+            width: 97.5%;
+            height: 20px;
+            padding: 5px;
+            font-family: $global-font;
+            border: 1px solid $border-color;
+            border-radius: 5px;
+            background-color: #fafafa;
+            margin: 8px 0px 16px 0px;
+
+            &:hover, &:focus {
+                border-color: $primary-CTA-color;
+            }
+        }
+    
+    
+        .password-container {
+            width: 97.5%;
+            height: 20px;
+            padding: 5px;
+            font-family: $global-font;
+            border: 1px solid $border-color;
+            border-radius: 5px;
+            background-color: #fafafa;
+            margin: 8px 0px 16px 0px;
+
+            &:hover, &:focus {
+                border-color: $primary-CTA-color;
+            }
+        }
+    
+    }
+
+    .button-container{
+        max-width: 100%;
+        margin: 32px 0px;
+        display: flex;
+        justify-content: flex-end;
+        font-family: $global-font;
+        padding-bottom: 16px;
+
+        @include tablet {
+            margin: 0;
+        }
+
+        .login-button {
+            width: 100%;
+            background: $primary-CTA-color;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 4px;
+            padding: 15px 5px;
+            cursor: pointer;
+
+            @include tablet {
+                width: 150px;
+            }
+
+            
+            &:hover {
+                background: $CTA-hover-color;
+            }
+        }
+    }
+}
+// rename classes for better use of sass
