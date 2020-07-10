@@ -11,6 +11,12 @@
     border-radius: 10px;
     margin:2em;
     box-shadow: 10px 10px 70px 10px #3747773f;
+
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.1);
+      }
     &-top{
         height: 60%;
         background-color: darksalmon;

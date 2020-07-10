@@ -2,6 +2,10 @@
 @import '../../../partials/fonts';
 @import '../../../partials/mixins';
 
+.movieDetail{
+    display: flex;
+    flex-direction: column;
+}
 .movies-list{
     display: flex;
     justify-content: space-evenly;

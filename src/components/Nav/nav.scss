@@ -34,6 +34,10 @@ a:hover{
   
   &__logo {
     @include flex-center;
+    transition: transform 0.2s;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   &__logo-text {
@@ -73,10 +77,14 @@ a:hover{
     &-item {  
         @include flex-center;
         margin: 4px 0px;
+    transition: transform 0.2s;
 
         @include tablet {
         justify-content: space-around;
         margin: 0px 20px;
+        }
+        &:hover {
+          transform: scale(1.1);
         }
     }
 
