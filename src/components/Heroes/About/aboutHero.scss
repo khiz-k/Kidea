@@ -6,7 +6,7 @@
   display: flex;
   background: $standard-bg-color;
   padding: 0;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding:0 2em 0 8em;
 
@@ -38,18 +38,17 @@
   }
 
   &-right{
-    width: 60%;
     display:flex;
-    justify-content: space-evenly;
     
     .coupled-images {
+      margin: 0px 32px;
       @include flex-column;
     }
 
     img{
       border-radius: 15px;
       margin: 8px;
-      width: 150px;
+      width: 200px;
       
        &:hover {
         opacity: 0.8;
