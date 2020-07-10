@@ -7,7 +7,7 @@ export default function Login(props) {
     <form>
       <button className="btn btn-ghost">
         <img src="./images/google.png" alt="" />
-        Log in with Google
+        Sign in with Google
       </button>
       <small>or</small>
       <div className="form-control">
@@ -23,27 +23,24 @@ export default function Login(props) {
         <label htmlFor="remember">Remember me</label>
         <a href="#">Forgot Password</a>
       </div>
-      <button className="btn">Log In</button>
+      <button className="btn">Sign In</button>
       <small>Don't have an account? <a href="#">Sign up</a></small>
     </form>
     <div className="features">
       <div className="feature">
         <i className="fas fa-code" />
-        <h3>Development</h3>
-        <p>A modern and clean design system for developing fast and powerful
-          web interfaces.</p>
+        <h3><img src="./assets/film.svg"/> Movies</h3>
+        <p>Movies targetted to engage your children in a stimulating and positive way.</p>
       </div>
       <div className="feature">
         <i className="fas fa-gift" />
-        <h3>Features</h3>
-        <p>A modern and clean design system for developing fast and powerful
-          web interfaces.</p>
+        <h3><img src="./assets/tv.svg"/> TV Shows</h3>
+        <p>TV shows catered to your children based on age group.  Educational, immersive, PG content.</p>
       </div>
       <div className="feature">
         <i className="fas fa-edit" />
-        <h3>Updates</h3>
-        <p>A modern and clean design system for developing fast and powerful
-          web interfaces.</p>
+        <h3><img src="./assets/news.svg"/> News</h3>
+        <p>News broken down and explained to your children in a meaningful and effective manner.</p>
       </div>
     </div>
   </div>
