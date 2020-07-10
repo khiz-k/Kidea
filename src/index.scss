@@ -4,7 +4,7 @@
 
 body {
   font-family: $global-font;
-  color: $global-color;
+  color: $font-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @include reset;

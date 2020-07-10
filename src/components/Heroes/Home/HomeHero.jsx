@@ -6,9 +6,9 @@ export default function HomeHero (props) {
     <>
       <section className="hero">
         <div>
-          <h1>Home Hero</h1>
-          <p>This is the home page</p>
-          <button>Home Button</button>
+          <h1 className="hero-header">Educational Media for Kids to watch</h1>
+          <p className="hero-text">Lorem ipsum</p>
+          <button className="hero-button">ABOUT US</button>
         </div>
         <img src={props.image}/>
       </section>
