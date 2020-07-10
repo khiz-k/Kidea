@@ -3,6 +3,7 @@ import './login.scss';
 
 export default function Login(props) {
   return (
+    <div className="center">
     <div className="login-container">
     <form>
       <button className="btn btn-ghost">
@@ -43,6 +44,7 @@ export default function Login(props) {
         <p>News broken down and explained to your children in a meaningful and effective manner.</p>
       </div>
     </div>
+  </div>
   </div>
   );
 }
