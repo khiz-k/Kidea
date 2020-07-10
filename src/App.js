@@ -69,9 +69,9 @@ class App extends React.Component  {
           <Route path="/news" exact>
             <NewsDetails />
           </Route>
-          <Route path="/about" exact>
+          {/* <Route path="/about" exact>
             <AboutDetails />
-          </Route>
+          </Route> */}
         </div>
       </div>
       </BrowserRouter>
