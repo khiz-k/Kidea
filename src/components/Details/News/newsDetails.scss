@@ -5,3 +5,121 @@
 .news-list {
 
 }
+
+.about {
+    width: 100%;
+    @include flex-column;
+    justify-content: center;
+    @include standard-padding;
+
+    @include tablet {
+        @include tablet-padding;
+      
+    }
+
+    @include desktop {
+        @include desktop-padding;
+        
+    }
+
+    &__title {
+        font-family: $global-font__bold;
+        align-self: flex-start;
+        margin: 8px 0px;
+        @include h1-text-style;
+        
+        @include tablet {
+            @include tablet-h1-text;
+            margin: 16px 0px;
+        }
+
+        @include desktop {
+            margin: 24px 0px;
+        }
+    }
+
+    &__info {
+        width: 100%;
+        height: 50%;
+        margin: 24px 0px;
+  
+        @include tablet {
+            height: 50%;
+        }
+    
+        @include desktop {
+            width: 75%;
+            height: 37.5%;
+        }   
+    }
+    
+    &__quote {
+        font-family: $global-font__demi-bold;
+        width: 100%;
+        margin: 16px 0px;
+        @include h3-text-style;
+       
+        @include tablet {
+            font-family: $global-font__demi-bold;
+            @include tablet-h2-text;
+            margin: 32px 0px;
+        }
+        
+        @include desktop {
+            font-size: 22px; /*pixel perfect correct*/
+            margin: 48px 0px;
+        }
+
+        &__author {
+            font-family: $global-font__demi-bold;
+            @include h5-text-style;
+            margin: 16px 0px;
+
+            @include tablet {
+                font-family: $global-font;
+                font-weight: 600;
+                @include tablet-h4-text;
+                margin: 20px 0px;
+            }
+        }
+    }
+    
+    &__article {
+        width: 100%;
+        margin: auto;
+
+        &__title {
+            @include h2-text-style;
+            font-family: $global-font__demi-bold;
+            margin-top: 32px;
+
+            @include tablet {
+                @include tablet-h2-text;
+            }
+        }
+
+        &__paragraph {
+            margin: 16px 0px;
+      
+            @include tablet {
+                display: flex; 
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            &__text {
+                @include h4-text-style;
+                margin: 8px 0px;
+    
+                @include tablet {
+                    @include tablet-h4-text;
+                    margin-right: 24px;
+                }
+
+                @include desktop {
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+}
