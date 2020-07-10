@@ -2,8 +2,11 @@
 @import './partials/fonts';
 @import './partials/mixins';
 
-.details {
+body {
     background-color: $standard-bg-color;
+}
+
+.details {
     @include flex-column;
     @include standard-padding;
   
