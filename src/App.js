@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import './app.scss';
 // import components
 import Nav from './components/Nav/Nav';
+import Login from './components/Login/Login';
 import HomeHero from './components/Heroes/Home/HomeHero';
 import MoviesHero from './components/Heroes/Movies/MoviesHero';
 import TVshowsHero from './components/Heroes/Shows/ShowsHero';
@@ -40,35 +41,36 @@ class App extends React.Component  {
             <MoviesHero video={this.state.video}/>
           </Route>
           <Route path="/shows" exact>
-            <MusicHero video={this.state.video}/>
+            <TVshowsHero video={this.state.video} />
           </Route>
           <Route path="/music" exact>
-            <TVshowsHero video={this.state.video} />
+            <MusicHero />
           </Route>
           <Route path="/news" exact>
             <NewsHero video={this.state.video}/>
           </Route>
           <Route path="/about" exact>
-            <AboutHero video={this.state.video}/>
+            <AboutHero />
           </Route>
         <div className="details">
+          <Route path="/login" exact component = {Login}/>
           <Route path="/" exact>
-            <HomeDetails video={this.state.video}/>
+            <HomeDetails />
           </Route>
           <Route path="/movies" exact>
-            <MoviesDetails video={this.state.video}/>
+            <MoviesDetails />
           </Route>
           <Route path="/shows" exact>
-            <TVshowsDetails video={this.state.video}/>
+            <TVshowsDetails />
           </Route>
           <Route path="/music" exact>
-            <MusicDetails video={this.state.video}/>
+            <MusicDetails />
           </Route>
           <Route path="/news" exact>
-            <NewsDetails video={this.state.video}/>
+            <NewsDetails />
           </Route>
           <Route path="/about" exact>
-            <AboutDetails video={this.state.video}/>
+            <AboutDetails />
           </Route>
         </div>
       </div>

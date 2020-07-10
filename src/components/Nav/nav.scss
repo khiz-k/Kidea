@@ -29,7 +29,9 @@
   &__logo-text {
     text-decoration: none;
     @include h1-text-style;
+
     color: $secondary-color;
+
 
     @include tablet {
       @include tablet-h1-text;
@@ -63,27 +65,10 @@
 
         @include tablet {
         justify-content: space-around;
-        margin: 0px 12px;
+        margin: 0px 20px;
         }
     }
 
-  }
-
-  &__search {
-    border: 2px solid $border-color;
-    max-width: 252px;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: $field-color;
-    background-image: url('../../assets/Icons/SVG/Icon-search.svg');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    cursor: pointer;
-
-    &:hover, &:focus {
-        border: 2px solid $primary-CTA-color;
-    }
   }
 
   .login-button__link {
