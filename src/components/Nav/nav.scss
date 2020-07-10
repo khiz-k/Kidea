@@ -29,7 +29,7 @@
   &__logo-text {
     text-decoration: none;
     @include h1-text-style;
-    color: yellow;
+    color: $secondary-color;
 
     @include tablet {
       @include tablet-h1-text;

@@ -1,0 +1,37 @@
+@import '../../partials/colors';
+@import '../../partials/fonts';
+@import '../../partials/mixins';
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    margin:2em;
+    box-shadow: 10px 10px 70px 10px #3747773f;
+    &-top{
+        height: 60%;
+        background-color: darksalmon;
+        background-image: url(../../assets/Images/sesame.jpg);
+        background-size: cover;
+         background-repeat: no-repeat;
+         border-radius: 10px 10px 0 0;
+    }
+    &-star{
+        font-size:20px;
+        color:$secondary-color;
+    }
+    &-title{
+        font-size:30px;
+        font-weight:600;
+        margin:0;
+    }
+    &-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding:0 10px;
+    }
+}

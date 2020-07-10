@@ -34,7 +34,7 @@ class App extends React.Component  {
       <div className="App">
           <Nav logo={this.state.siteLogo} />
           <Route path="/" exact>
-            <HomeHero video={this.state.video} />
+            <HomeHero />
           </Route>
           <Route path="/movies" exact>
             <MoviesHero video={this.state.video}/>

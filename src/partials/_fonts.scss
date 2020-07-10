@@ -16,6 +16,22 @@
     font-weight: 900;
 }
 
-$global-font: "Avenir Next";
-$global-font__demi-bold: "Avenir Next Demi Bold";
-$global-font__bold: "Avenir Next Bold";
+@font-face {
+    font-family: 'Raleway';
+    src:url('../assets/Font/raleway/Raleway-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Raleway demi bold';
+    src:url('../assets/Font/raleway/Raleway-Medium.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Raleway extra bold';
+    src:url('../assets/Font/raleway/Raleway-Bold.ttf');
+    font-weight: 900;
+}
+
+$global-font: "Raleway",Helvetica, sans-serif;
+$global-font__demi-bold: "Raleway demi bold",Helvetica, sans-serif;
+$global-font__bold: "Raleway extra bold",Helvetica, sans-serif
