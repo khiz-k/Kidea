@@ -5,9 +5,8 @@ export default function NewsHero (props) {
   return (
     <>
       <section className="news-hero">
-        <video className="hero-content" poster={props.video.image} controls>
-          <source src={props.video.source} type="video/mp4" className="video-source"/>
-        </video>
+      <iframe className="news-hero-content" width="777" height="583" src="https://www.youtube.com/embed/MVvVTDhGqaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      {/* <img className="news-hero-content" src="./assets/covid-info.jpg"/> */}
       </section>
     </>
   );
