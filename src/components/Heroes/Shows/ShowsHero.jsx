@@ -5,9 +5,7 @@ export default function ShowsHero (props) {
   return (
     <>
       <section className="shows-hero">
-        <video className="hero-content" poster={props.video.image} controls>
-          <source src={props.video.source} type="video/mp4" className="video-source"/>
-        </video>
+      <iframe className="shows-hero-content" width="777" height="583" src="https://www.youtube.com/embed/mJaxCjNJDww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
     </>
   );
