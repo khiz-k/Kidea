@@ -3,6 +3,11 @@
 @import '../../partials/fonts';
 @import '../../partials/mixins';
 
+.center {
+    width: 100%;
+    @include flex-center;
+}
+
 .login-container {
     background-color: #fff;
     border-radius: 3px;
