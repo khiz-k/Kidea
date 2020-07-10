@@ -50,6 +50,10 @@
       border-radius: 15px;
       margin: 8px;
       width: 150px;
+      
+       &:hover {
+        opacity: 0.8;
+      }
     }
   }
 }
