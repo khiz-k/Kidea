@@ -1,5 +1,5 @@
 import React from 'react';
-import './hero.scss';
+import './homeHero.scss';
 
 export default function HomeHero (props) {
   return (

@@ -5,12 +5,12 @@ import { BrowserRouter, Route } from "react-router-dom";
 import './app.scss';
 // import components
 import Nav from './components/Nav/Nav';
-import HomeHero from './components/Heroes/HomeHero';
-import MoviesHero from './components/Heroes/MoviesHero';
-import TVshowsHero from './components/Heroes/ShowsHero';
-import MusicHero from './components/Heroes/MusicHero'; 
-import NewsHero from './components/Heroes/NewsHero';
-import AboutHero from './components/Heroes/AboutHero';
+import HomeHero from './components/Heroes/Home/HomeHero';
+import MoviesHero from './components/Heroes/Movies/MoviesHero';
+import TVshowsHero from './components/Heroes/Shows/ShowsHero';
+import MusicHero from './components/Heroes/Music/MusicHero'; 
+import NewsHero from './components/Heroes/News/NewsHero';
+import AboutHero from './components/Heroes/About/AboutHero';
 import HomeDetails from './components/Details/Home/HomeDetails';
 import MoviesDetails from './components/Details/Movies/MoviesDetails'; 
 import TVshowsDetails from './components/Details/Shows/ShowsDetails';

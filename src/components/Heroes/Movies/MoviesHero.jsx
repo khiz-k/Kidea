@@ -1,7 +1,7 @@
 import React from 'react';
-import './hero.scss';
+import './moviesHero.scss';
 
-export default function ShowsHero (props) {
+export default function MoviesHero (props) {
   return (
     <>
       <section className="hero">

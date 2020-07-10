@@ -1,7 +1,7 @@
 import React from 'react';
-import './hero.scss';
+import './musicHero.scss';
 
-export default function AboutHero (props) {
+export default function MusicHero (props) {
   return (
     <>
       <section className="hero">

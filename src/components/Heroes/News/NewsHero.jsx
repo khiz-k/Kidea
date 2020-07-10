@@ -1,5 +1,5 @@
 import React from 'react';
-import './hero.scss';
+import './newsHero.scss';
 
 export default function NewsHero (props) {
   return (
