@@ -1,4 +1,4 @@
-## Kids Multimedia Website made for Bell x Brainstation Hackathon in 7 hours
+## Kids Multimedia Website made for Bell x Brainstation Hackathon in 6 hours
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  You will need to install the dependencies in package.json to run this properly.
 
 ## Available Scripts
